@@ -7,18 +7,18 @@ import { Headline } from "../components/Headline";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Headline title="Index Page" />
+      <Headline title="About Page" />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello <a href="https://nextjs.org">Index page</a>
+          Hello<a href="https://nextjs.org">about page</a>
         </h1>
 
         <p className={styles.description}>
           Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/about.js</code>
         </p>
+        <Links />
       </main>
-      <Links />
       <Footer />
     </div>
   );
